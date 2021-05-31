@@ -37,7 +37,10 @@ const DestinationSearch = () => {
             textInput: styles.textInput,
           }}
           fetchDetails
-          query={{key: '', language: 'en'}}
+          query={{
+            key: '',
+            language: 'en',
+          }}
         />
       </View>
     </SafeAreaView>

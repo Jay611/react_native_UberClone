@@ -22,8 +22,8 @@ const HomeMap = () => {
       initialRegion={{
         latitude: 28.450627,
         longitude: -16.263045,
-        latitudeDelta: 0.09,
-        longitudeDelta: 0.04,
+        latitudeDelta: 0.009,
+        longitudeDelta: 0.004,
       }}>
       {cars.map(car => (
         <Marker key={car.id} coordinate={{latitude: car.latitude, longitude: car.longitude}}>
